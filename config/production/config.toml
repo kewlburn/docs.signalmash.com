@@ -1,2 +1,2 @@
-canonifyURLs = false
+canonifyURLs = true
 baseurl = "https://kewlburn.github.io/docs.signalmash.com/"
