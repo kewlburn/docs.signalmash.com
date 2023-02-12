@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://kewlburn.github.io/docs.signalmash.com/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
