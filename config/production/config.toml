@@ -1,2 +1,2 @@
 canonifyURLs = true
-baseurl = "https://kewlburn.github.io/docs.signalmash.com/"
+baseURL = "https://kewlburn.github.io/docs.signalmash.com/"
