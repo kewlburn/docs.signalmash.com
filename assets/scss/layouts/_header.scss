@@ -14,6 +14,10 @@
   font-weight: $headings-font-weight;
 }
 
+.navbar-brand .brand-logo {
+  max-height: 65px;
+}
+
 /*
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
@@ -140,7 +144,7 @@ button#doks-versions {
 
 .header-bar {
   border-top: 4px solid;
-  border-image-source: linear-gradient(90deg, $primary, #8ed6fb 50%, #d32e9d);
+  border-image-source: linear-gradient(90deg, #e94630, #f2b317 50%, #29a759);
   border-image-slice: 1;
 }
 

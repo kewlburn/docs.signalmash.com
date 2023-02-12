@@ -1,13 +1,14 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "SignalMash"
 titleSeparator = "-"
+logo = "logo.png"
 titleAddition = "Modern Documentation Theme"
 description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 
 ## Documentation
-# docsVersion = "0.3"
+# docsVersion = "0.1"
 
 ## Open Graph
 images = ["doks.png"]
@@ -68,7 +69,7 @@ fillImage = "1270x740 Center" # normalize image size
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2020-2023 Signalmash"
 
 # Alert
 alert = false
@@ -80,7 +81,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/kewlburn/docs.signalmash.com"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false
