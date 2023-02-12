@@ -4,8 +4,8 @@
 title = "SignalMash"
 titleSeparator = "-"
 logo = "logo.png"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "API Reference, Tutorials, and Integration"
+description = "Collection of API reference documentation for Signalmash. Guides and quickstarts for integrating Signalmash services into your web or mobile app."
 
 ## Documentation
 # docsVersion = "0.1"
