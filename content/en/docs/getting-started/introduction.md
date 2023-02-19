@@ -12,7 +12,6 @@ menu:
 weight: 100
 toc: true
 ---
-
 Welcome to the Signalmash API docs! This is the place to find official information on how to use Signalmash services and products in your app.
 
 This site provides comprehensive documentation for all of our APIs and you’ll find everything you need to know about working with a particular API in the corresponding section.
@@ -27,16 +26,18 @@ However, there are some fundamental concepts that you need to understand and too
 * Working with Webhooks
 * Concepts
 
-
 ### Signing up for an account
+
 To work with our APIs, you will need to [sign up](https://portal.signalmash.com/#/signup) for an account. This will give you an API token and key that you can use to access our APIs.
 
 ### Accessing API Token information
+
 Every API request authenticates the user, which you may do through the user's site by creating tokens. Users can now use the same or different tokens for each activity they make, thanks to a single management location.
 
 Log in to the portal, then go to the API Menu and select "Tokens" from the submenu. To make a token, go to the right upper corner and click "Add Token." There will be a pop-up window. Choose the function (s) to link to the token.
 
 ### Authentication
+
 When using the Signalmash APIs your requests need to be authenticated. Typically this is done using [**Bearer Authentication**]({{< relref "docs/getting-started/authentication" >}}).
 
 **Bearer authentication** (also called token authentication) is an HTTP authentication scheme that involves security tokens called bearer tokens.
@@ -52,4 +53,5 @@ Ultimately, you’re going to want to build an app in your chosen programming la
 If you are familiar with the command-line tool Curl, you will find Curl snippets for each of our APIs that you can copy, paste and modify.
 
 #### Postman
+
 Various GUI tools exist that are easier to use than Curl. A popular one is Postman. Signalmash also provides a set of Postman collections, which provides a way to start using the APIs immediately.
