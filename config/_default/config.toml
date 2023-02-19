@@ -1,5 +1,5 @@
-baseurl = "https://kewlburn.github.io/docs.signalmash.com/"
-canonifyURLs = false
+baseurl = "http://localhost:1313/docs.signalmash.com"
+canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
