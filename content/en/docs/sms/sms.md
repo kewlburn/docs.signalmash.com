@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "SMS"
 description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 date: 2020-10-06T08:48:57+00:00
@@ -8,8 +8,8 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "prologue"
-weight: 100
+    parent: "messaging"
+weight: 201
 toc: true
 ---
 
@@ -26,8 +26,6 @@ Step-by-step instructions on how to start a new Doks project. [Tutorial →](htt
 ### Quick Start
 
 {{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
-
-One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
 
 ## Go further
 
@@ -52,7 +50,3 @@ See what others have build with Doks. [Showcase →](https://getdoks.org/showcas
 ## Contributing
 
 Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
-
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
