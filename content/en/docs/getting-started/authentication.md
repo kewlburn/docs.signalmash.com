@@ -24,8 +24,6 @@ Visit the Signalmash Portal (go to the API Menu and select "[Tokens](https://por
 
 #### 2. Obtain a session token from Signalmash API login.
 
-
-
 ### Revoking API Token
 
 In some cases a user may wish to revoke access given to an application. A user can revoke access by visiting Signalmash Portal (go to the API Menu and select "[Tokens](https://portal.signalmash.com/#/api/tokens)" from the submenu) and click the delete icon.
