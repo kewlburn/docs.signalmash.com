@@ -66,5 +66,8 @@
   },
   "otherDependencies": {
     "hugo": "0.107.0"
+  },
+  "dependencies": {
+    "hugo-installer": "^4.0.1"
   }
 }
