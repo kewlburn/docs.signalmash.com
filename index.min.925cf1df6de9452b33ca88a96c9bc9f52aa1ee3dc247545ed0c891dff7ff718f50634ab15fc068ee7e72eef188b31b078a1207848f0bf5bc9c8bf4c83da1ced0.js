@@ -7,7 +7,7 @@ Log in to the portal, then go to the API Menu and select \u0026ldquo;Tokens\u002
 Authentication # When using the Signalmash APIs your requests need to be authenticated. Typically this is done using Bearer Authentication.
 Bearer authentication (also called token authentication) is an HTTP authentication scheme that involves security tokens called bearer tokens.
 The client must send this token in the Authorization header when making requests to protected resources:
-Authorization: Bearer \u0026lt;token\u0026gt;
+Authorization: Bearer \u0026lt;session-token\u0026gt;
 Experimenting with our APIs # Ultimately, you’re going to want to build an app in your chosen programming language. But to start with, you might want to make some sample requests to our APIs to check that you have provided the correct parameters and that you are getting back the responses you want.
 If you are familiar with the command-line tool Curl, you will find Curl snippets for each of our APIs that you can copy, paste and modify.
 Postman # Various GUI tools exist that are easier to use than Curl. A popular one is Postman. Signalmash also provides a set of Postman collections, which provides a way to start using the APIs immediately.
