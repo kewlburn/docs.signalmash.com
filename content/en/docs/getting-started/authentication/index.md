@@ -20,7 +20,9 @@ Obtain API token credentials from the Signalmash Portal to get started. Then, yo
 
 #### 1. Obtain API token credentials from Signalmash Portal.
 
-To get token credentials, such as a **Token Name** and **API key** that are known to both Signalmash and your application, go to the Signalmash Portal (go to the API Menu and select "[Tokens](https://portal.signalmash.com//api/tokens)" from the submenu).
+To get token credentials, such as a **Token Name** and **API KEY** that are known to both Signalmash and your application, go to the Signalmash Portal (go to the API Menu and select "[Tokens](https://portal.signalmash.com//api/tokens)" from the submenu).
+
+![Signalmash Portal API tokens](api-keys.png)
 
 #### 2. Obtain a session token from Signalmash API login.
 
