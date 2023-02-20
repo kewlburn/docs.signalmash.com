@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Welcome to the Signalmash API docs! This is the place to find official information on how to use Signalmash services and products in your app."
+description: "Welcome to the Signalmash API docs! How to use Signalmash services and products in your app can be found here in official Signalmash documentation."
 lead: ""
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
@@ -12,11 +12,11 @@ menu:
 weight: 100
 toc: true
 ---
-Welcome to the Signalmash API docs! This is the place to find official information on how to use Signalmash services and products in your app.
+Welcome to the Signalmash API docs! How to use Signalmash services and products in your app can be found here in official Signalmash documentation.
 
-This site provides comprehensive documentation for all of our APIs and you’ll find everything you need to know about working with a particular API in the corresponding section.
+For each of our APIs, this site offers thorough documentation, and the section devoted to that API will have all the information you require.
 
-However, there are some fundamental concepts that you need to understand and tools that might help you that apply across all our APIs. Here, we'll give you this information and get you up and running as quickly as possible.
+However, there are some fundamental ideas you must comprehend and resources that could be useful that apply to all of our APIs. Here, we'll give you this knowledge and help you get going as soon as possible.
 
 ##### What you will learn:
 
@@ -28,43 +28,43 @@ However, there are some fundamental concepts that you need to understand and too
 
 ### Signing up for an account
 
-To work with our APIs, you will need to [sign up](https://portal.signalmash.com/#/signup) for an account. This will give you an API token and key that you can use to access our APIs.
+You must [sign up](https://portal.signalmash.com/#/signup) for an account in order to use our APIs. You will receive an API token and key as a result, which you can use to access our APIs.
 
 ### Accessing API Token information
 
-Every API request authenticates the user, which you may do through the user's site by creating tokens. Users can now use the same or different tokens for each activity they make, thanks to a single management location.
+By creating tokens on the user's website, you can authenticate the user for each API request. Thanks to a single management location, users can now use the same or different tokens for each activity they perform.
 
-Log in to the portal, then go to the API Menu and select "Tokens" from the submenu. To make a token, go to the right upper corner and click "Add Token." There will be a pop-up window. Choose the function (s) to link to the token.
+After logging into the portal, choose "Tokens" from the submenu under the API Menu. A token can be created by clicking "Add New" in the right upper corner. A pop-up window will appear. Select the function or functions to link to the token.
 
 ### Authentication
 
-When using the Signalmash APIs your requests need to be authenticated. Typically this is done using [**Bearer Authentication**]({{< relref "docs/getting-started/authentication" >}}).
+Your requests need to be authenticated when using the Signalmash APIs. Most often, this is accomplished with [**Bearer Authentication**]({{< relref "docs/getting-started/authentication" >}}).
 
-**Bearer authentication** (also called token authentication) is an HTTP authentication scheme that involves security tokens called bearer tokens.
+The HTTP authentication method known as **Bearer Authentication** (also known as "token authentication") uses bearer tokens as security tokens.
 
-The client must send this token in the Authorization header when making requests to protected resources:
+When sending requests to protected resources, the client must include this token in the Authorization header:
 
-`Authorization: Bearer <session-token>`
+`Authorization: Bearer <token>`
 
 ### Experimenting with our APIs
 
-Ultimately, you’re going to want to build an app in your chosen programming language. But to start with, you might want to make some sample requests to our APIs to check that you have provided the correct parameters and that you are getting back the responses you want.
+You should eventually create an app in the programming language of your choice. But first, you might want to send some practice requests to our APIs to make sure you have the right input parameters and are receiving the desired results.
 
-If you are familiar with the command-line tool Curl, you will find Curl snippets for each of our APIs that you can copy, paste and modify.
+You will find Curl snippets for each of our APIs that you can copy, paste, and alter if you are familiar with the command-line tool Curl.
 
-#### Postman
+##### Postman
 
-Various GUI tools exist that are easier to use than Curl. A popular one is Postman. Signalmash also provides a set of Postman collections, which provides a way to start using the APIs immediately.
+There are many GUI tools available that are simpler to use than Curl. One of them is Postman. In order to get started using the APIs right away, Signalmash also offers a selection of Postman collections.
 
 ### Working with Webhooks
 
 ### What to do next
 
-This guide introduced you to some of the fundamental concepts and tools that you should know about when working with our APIs.
+In this guide, we've introduced some of the fundamental concepts and resources you should be familiar with before using our APIs.
 
-Once you understand these fundamental concepts and have installed the tools you intend to use, you are ready to start building! View the documentation for your chosen API to get started, or try out some of the following starter tasks:
+View the documentation for your chosen API to get started, or try out some of the following starter tasks once you have a firm grasp of these fundamental ideas and have installed the tools you intend to use.
 
 * SMS API: Send an SMS
 * Voice API: Make an outbound call
 
-We take pride in our documentation, but are always looking to make it better. So if you find anything that is unclear or lacking the information you require, then please submit feedback for the topic in question. If we’ve done a good job on a particular section then please let us know!
+Although we are proud of our documentation, we are constantly looking for ways to improve it. Please provide feedback for the relevant topic if you discover anything that is unclear or lacking the information you need. Let us know if we did a good job if you think a certain section was completed.
