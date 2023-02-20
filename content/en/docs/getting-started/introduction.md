@@ -24,7 +24,7 @@ However, there are some fundamental concepts that you need to understand and too
 * Accessing API Token information
 * Experimenting with our APIs
 * Working with Webhooks
-* Concepts
+* What to do next
 
 ### Signing up for an account
 
@@ -52,6 +52,19 @@ Ultimately, you’re going to want to build an app in your chosen programming la
 
 If you are familiar with the command-line tool Curl, you will find Curl snippets for each of our APIs that you can copy, paste and modify.
 
-#### Postman
+##### Postman
 
 Various GUI tools exist that are easier to use than Curl. A popular one is Postman. Signalmash also provides a set of Postman collections, which provides a way to start using the APIs immediately.
+
+### Working with Webhooks
+
+### What to do next
+
+This guide introduced you to some of the fundamental concepts and tools that you should know about when working with our APIs.
+
+Once you understand these fundamental concepts and have installed the tools you intend to use, you are ready to start building! View the documentation for your chosen API to get started, or try out some of the following starter tasks:
+
+* SMS API: Send an SMS
+* Voice API: Make an outbound call
+
+We take pride in our documentation, but are always looking to make it better. So if you find anything that is unclear or lacking the information you require, then please submit feedback for the topic in question. If we’ve done a good job on a particular section then please let us know!
