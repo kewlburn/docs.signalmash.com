@@ -54,7 +54,7 @@ You will find Curl snippets for each of our APIs that you can copy, paste, and a
 
 ##### Postman
 
-There are many GUI tools available that are simpler to use than Curl. One of them is Postman. In order to get started using the APIs right away, Signalmash also offers a selection of Postman collections.
+There are many GUI tools available that are simpler to use than Curl. One of them is Postman. In order to get started using the APIs right away, Signalmash also offers a selection of [Postman collections](https://www.postman.com/abundant-geeks/workspace/signalmash/collection/2741802-d6c11002-9593-4958-b323-8eb0dd39092c?action=share&creator=2741802).
 
 ### Working with Webhooks
 
