@@ -44,7 +44,7 @@ When using the Signalmash APIs your requests need to be authenticated. Typically
 
 The client must send this token in the Authorization header when making requests to protected resources:
 
-`Authorization: Bearer <token>`
+`Authorization: Bearer <session-token>`
 
 ### Experimenting with our APIs
 
