@@ -52,7 +52,7 @@ Ultimately, you’re going to want to build an app in your chosen programming la
 
 If you are familiar with the command-line tool Curl, you will find Curl snippets for each of our APIs that you can copy, paste and modify.
 
-##### Postman
+#### Postman
 
 Various GUI tools exist that are easier to use than Curl. A popular one is Postman. Signalmash also provides a set of Postman collections, which provides a way to start using the APIs immediately.
 

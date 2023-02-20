@@ -27,6 +27,7 @@ To get token credentials, such as a **Token Name** and **API key** that are know
 #### 3. Send the access token to an API.
 
 #### 4. Refresh the access token, if necessary.
+
 ### Revoking API Token
 
 An application's access may occasionally be revoked by a user. By visiting Signalmash Portal, selecting "[Tokens](https://portal.signalmash.Com//api/tokens)" from the submenu, and clicking the delete icon, a user can revoke access.
