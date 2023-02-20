@@ -82,10 +82,10 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 repoHost = "GitHub"
 #repoHost = "Gitea"
 docsRepo = "https://github.com/kewlburn/docs.signalmash.com"
-docsRepoBranch = "master"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
-editPage = false
-lastMod = false
+editPage = true
+lastMod = true
 
 [sections]
   sectionNav = ["docs", "guides"]
