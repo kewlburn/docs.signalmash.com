@@ -28,7 +28,7 @@ To get token credentials, such as a **API KEY** that are known to both Signalmas
 
 For endpoints authentication, you will use your Signalmash API KEY as your Bearer token.
 
-```
+```shell
 # Get all campaigns
 
 $ curl -X POST -H "Authorization: Bearer API_KEY" \
