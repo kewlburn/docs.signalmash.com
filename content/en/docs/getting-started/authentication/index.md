@@ -20,15 +20,20 @@ Obtain API token credentials from the Signalmash Portal to get started. Then, yo
 
 #### 1. Obtain API token credentials from Signalmash Portal.
 
-To get token credentials, such as a **Token Name** and **API KEY** that are known to both Signalmash and your application, go to the Signalmash Portal (go to the API Menu and select "[Tokens](https://portal.signalmash.com/#/api/tokens)" from the submenu).
+To get token credentials, such as a **API KEY** that are known to both Signalmash and your application, go to the Signalmash Portal (go to the API Menu and select "[Tokens](https://portal.signalmash.com/#/api/tokens)" from the submenu).
 
 ![Signalmash Portal API tokens](api-keys.png)
 
-#### 2. Obtain a session token from Signalmash API login.
+#### 2. Include the API KEY in header when requesting to an API endpoints.
 
-#### 3. Send the access token to an API.
+For endpoints authentication, you will use your Signalmash API KEY as your Bearer token.
 
-#### 4. Refresh the access token, if necessary.
+```
+# Get all campaigns
+
+$ curl -X POST -H "Authorization: Bearer API_KEY" \
+    https://api.signalmash.com/campaigns
+```
 
 ### Revoking API Token
 
