@@ -38,11 +38,9 @@ After logging into the portal, choose "Tokens" from the submenu under the API Me
 
 ### Authentication
 
-Your requests need to be authenticated when using the Signalmash APIs. Most often, this is accomplished with [**Bearer Authentication**]({{< relref "docs/getting-started/authentication" >}}).
+Your requests need to be authenticated when using the Signalmash API endpoints. This can be accomplished with [**API Keys Authentication**]({{< relref "docs/getting-started/authentication" >}}).
 
-The HTTP authentication method known as **Bearer Authentication** (also known as "token authentication") uses bearer tokens as security tokens.
-
-When sending requests to protected resources, the client must include this token in the Authorization header:
+When sending requests to protected resources or endpoints, the client must include this token in the Authorization header:
 
 `Authorization: <token>`
 
