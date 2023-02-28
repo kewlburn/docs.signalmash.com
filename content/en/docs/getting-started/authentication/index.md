@@ -33,7 +33,6 @@ For endpoints authentication, you will use your Signalmash API KEY as your Beare
 
 curl -X GET \
     -H "Authorization: API_KEY" \
-    -H 'accept: */*' \
     https://api.signalmash.com/campaigns
 ```
 
