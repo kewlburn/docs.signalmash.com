@@ -7,7 +7,7 @@ After logging into the portal, choose \u0026ldquo;Tokens\u0026rdquo; from the su
 Authentication # Your requests need to be authenticated when using the Signalmash APIs. Most often, this is accomplished with Bearer Authentication.
 The HTTP authentication method known as Bearer Authentication (also known as \u0026ldquo;token authentication\u0026rdquo;) uses bearer tokens as security tokens.
 When sending requests to protected resources, the client must include this token in the Authorization header:
-Authorization: Bearer \u0026lt;token\u0026gt;
+Authorization: \u0026lt;token\u0026gt;
 Experimenting with our APIs # You should eventually create an app in the programming language of your choice. But first, you might want to send some practice requests to our APIs to make sure you have the right input parameters and are receiving the desired results.
 You will find Curl snippets for each of our APIs that you can copy, paste, and alter if you are familiar with the command-line tool Curl.
 Postman # There are many GUI tools available that are simpler to use than Curl. One of them is Postman. In order to get started using the APIs right away, Signalmash also offers a selection of Postman collections.
@@ -21,7 +21,7 @@ Obtain API token credentials from the Signalmash Portal to get started. Then, yo
 Obtain API token credentials from the Signalmash Portal to get started. Then, your client application asks the Signalmash API login for an access token, takes a session token out of the response, and sends it to the Signalmash API you want to access.
 Basic Authentication Steps # 1. Obtain API token credentials from Signalmash Portal. # To get token credentials, such as a API KEY that are known to both Signalmash and your application, go to the Signalmash Portal (go to the API Menu and select \u0026ldquo;Tokens\u0026rdquo; from the submenu).
 2. Include the API KEY in header when requesting to an API endpoints. # For endpoints authentication, you will use your Signalmash API KEY as your Bearer token.
-# Get all campaigns $ curl -X POST -H \u0026quot;Authorization: Bearer API_KEY\u0026quot; \\ https://api.signalmash.com/campaigns Revoking API Token # An application\u0026rsquo;s access may occasionally be revoked by a user. By visiting Signalmash Portal, selecting \u0026ldquo;Tokens\u0026rdquo; from the submenu, and clicking the delete icon, a user can revoke access.
+# Get all campaigns $ curl -X POST -H \u0026quot;Authorization: API_KEY\u0026quot; \\ https://api.signalmash.com/campaigns Revoking API Token # An application\u0026rsquo;s access may occasionally be revoked by a user. By visiting Signalmash Portal, selecting \u0026ldquo;Tokens\u0026rdquo; from the submenu, and clicking the delete icon, a user can revoke access.
 `}),e.add({id:3,href:"https://kewlburn.github.io/docs.signalmash.com/docs/sms/",title:"Messaging",description:"Messaging docs",content:""}),e.add({id:4,href:"https://kewlburn.github.io/docs.signalmash.com/docs/sms/sms/",title:"SMS",description:"Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.",content:`Get started # There are two main ways to get started with Doks:
 Tutorial # 👉 The Tutorial is intended for novice to intermediate users. Step-by-step instructions on how to start a new Doks project. Tutorial →
 Quick Start # 👉 The Quick Start is intended for intermediate to advanced users. Go further # Recipes, Reference Guides, Extensions, and Showcase.
