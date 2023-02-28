@@ -44,7 +44,7 @@ The HTTP authentication method known as **Bearer Authentication** (also known as
 
 When sending requests to protected resources, the client must include this token in the Authorization header:
 
-`Authorization: Bearer <token>`
+`Authorization: <token>`
 
 ### Experimenting with our APIs
 

@@ -31,7 +31,7 @@ For endpoints authentication, you will use your Signalmash API KEY as your Beare
 ```shell
 # Get all campaigns
 
-$ curl -X POST -H "Authorization: Bearer API_KEY" \
+$ curl -X POST -H "Authorization: API_KEY" \
     https://api.signalmash.com/campaigns
 ```
 
