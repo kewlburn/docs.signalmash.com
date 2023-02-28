@@ -58,6 +58,10 @@ There are many GUI tools available that are simpler to use than Curl. One of the
 
 ### Working with Webhooks
 
+Webhooks are user-defined HTTP callbacks triggered by an event in a web application. Signalmash uses webhooks to let your application know when events happen, like getting an incoming call or receiving an SMS message and SMS states. Webhooks are triggered asynchronously.
+
+To handle a webhook when you use Signalmash, you need to build a small web application that can accept HTTP POST requests.
+
 ### What to do next
 
 In this guide, we've introduced some of the fundamental concepts and resources you should be familiar with before using our APIs.
