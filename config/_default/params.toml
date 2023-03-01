@@ -11,10 +11,10 @@ description = "Collection of API reference documentation for Signalmash. Guides 
 # docsVersion = "0.1"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["logo.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "docs.signalmash.com"
+titleHome = "Signalmash Docs"
 
 ## Twitter Cards
 twitterSite = "@getdoks"
@@ -97,7 +97,7 @@ lastMod = true
   flexSearch = true
   searchSectionsShow = []
   searchSectionsIndex = []
-  darkMode = false
+  darkMode = true
   bootStrapJs = true
   breadCrumb = false
   highLight = true

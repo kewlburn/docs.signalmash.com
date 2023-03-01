@@ -580,3 +580,11 @@ $navbar-dark-active-color:          $link-color-dark;
   background: $body-overlay-dark;
   border: 1px solid $body-overlay-dark;
 }
+
+[data-dark-mode] .brand-logo {
+  display: none;
+}
+
+[data-dark-mode] .brand-logo-dark-mode {
+  display: inline !important;
+}
