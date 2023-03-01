@@ -16,6 +16,10 @@
         {{ .Site.Params.Title }}
       {{ else }}
         <img class="brand-logo" src="{{ $logo.RelPermalink }}" />
+        {{ $logoDarkMode := resources.Get ("images/logo-dark-mode.png") }}
+        {{ if ne $logoDarkMode "" }}
+          <img class="brand-logo brand-logo-dark-mode" src="{{ $logoDarkMode.RelPermalink }}" />
+        {{ end }}
       {{ end }}
     </a>
 
