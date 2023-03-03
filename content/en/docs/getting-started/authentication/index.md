@@ -32,18 +32,107 @@ For endpoints authentication, you will use your Signalmash API KEY as your Autho
 {{< tab title = "cURL" >}}
 
 ```bash
-$ curl -X GET \
-    -H "Authorization: API_KEY" \
-    https://api.signalmash.com/campaigns
+curl --location 'https://api.signalmash.com/campaigns' \
+--header 'Authorization: API_KEY'
 ```
 
 {{< /tab >}}
+{{< tab title = "Python http.client" >}}
+
+```python
+import http.client
+
+conn = http.client.HTTPSConnection("api.signalmash.com")
+payload = ''
+headers = {
+  'Authorization': 'API_KEY'
+}
+conn.request("GET", "/campaigns", payload, headers)
+res = conn.getresponse()
+data = res.read()
+print(data.decode("utf-8"))
+```
+
+{{< /tab >}}
+{{< tab title = "Golang" >}}
+
+```golang
+package main
+
+import (
+  "fmt"
+  "net/http"
+  "io/ioutil"
+)
+
+func main() {
+
+  url := "https://api.signalmash.com/campaigns"
+  method := "GET"
+
+  client := &http.Client {
+  }
+  req, err := http.NewRequest(method, url, nil)
+
+  if err != nil {
+    fmt.Println(err)
+    return
+  }
+  req.Header.Add("Authorization", "API_KEY")
+
+  res, err := client.Do(req)
+  if err != nil {
+    fmt.Println(err)
+    return
+  }
+  defer res.Body.Close()
+
+  body, err := ioutil.ReadAll(res.Body)
+  if err != nil {
+    fmt.Println(err)
+    return
+  }
+  fmt.Println(string(body))
+}
+```
+
+{{< /tab >}}
+
 {{< tab title = "PHP" >}}
 
-```PHP
+```php
 <?php
-    echo 'lorem ipsum.';
-?>
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'https://api.signalmash.com/campaigns',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'GET',
+  CURLOPT_HTTPHEADER => array(
+    'Authorization: API_KEY'
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+```
+
+{{< /tab >}}
+
+{{< tab title = "HTTP" >}}
+
+```http
+GET /campaigns HTTP/1.1
+Host: api.signalmash.com
+Authorization: API_KEY
 ```
 
 {{< /tab >}}
