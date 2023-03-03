@@ -615,8 +615,9 @@ $navbar-dark-active-color:          $link-color-dark;
 // Tabs
 //
 
+/* stylelint-disable no-descending-specificity */
+
 [data-dark-mode] .nav-tabs {
-  // scss-docs-start nav-tabs-css-vars
   --#{$prefix}nav-tabs-border-width: #{$nav-tabs-border-width};
   --#{$prefix}nav-tabs-border-color: #{$button-color-dark};
   --#{$prefix}nav-tabs-border-radius: #{$nav-tabs-border-radius};
@@ -624,28 +625,16 @@ $navbar-dark-active-color:          $link-color-dark;
   --#{$prefix}nav-tabs-link-active-color: #{$body-bg-dark};
   --#{$prefix}nav-tabs-link-active-bg: #{$button-color-dark};
   --#{$prefix}nav-tabs-link-active-border-color: #{$button-color-dark};
-  // scss-docs-end nav-tabs-css-vars
 
   border-bottom: var(--#{$prefix}nav-tabs-border-width) solid var(--#{$prefix}nav-tabs-border-color);
 
   .nav-link {
-    margin-bottom: calc(-1 * var(--#{$prefix}nav-tabs-border-width)); // stylelint-disable-line function-disallowed-list
-    background: none;
     border: var(--#{$prefix}nav-tabs-border-width) solid transparent;
     color: $link-color-dark;
-    @include border-top-radius(var(--#{$prefix}nav-tabs-border-radius));
 
     &:hover,
     &:focus {
-      // Prevents active .nav-link tab overlapping focus outline of previous/next .nav-link
       isolation: isolate;
-    }
-
-    &.disabled,
-    &:disabled {
-      color: var(--#{$prefix}nav-link-disabled-color);
-      background-color: transparent;
-      border-color: transparent;
     }
   }
 
@@ -663,3 +652,5 @@ $navbar-dark-active-color:          $link-color-dark;
     @include border-top-radius(0);
   }
 }
+
+/* stylelint-enable no-descending-specificity */
