@@ -12,7 +12,7 @@ menu:
 weight: 101
 toc: true
 ---
-API Keys authentication (also known as token authentication) is the authentication method used by Signalmash APIs. Signalmash supports standard token authentication methods for installed, client-side, web server, and mobile application applications.
+API Keys authentication (also known as token authentication) is the authentication method used by Signalmash APIs. Signalmash supports standard token authentication methods for installed, client-side, web server, and mobile applications.
 
 Obtain API token credentials from the Signalmash Portal to get started. Then, your client application asks the Signalmash API login for an access token, takes a session token out of the response, and sends it to the Signalmash API you want to access.
 
