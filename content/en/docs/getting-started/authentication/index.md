@@ -24,7 +24,7 @@ To get token credentials, such as a **API KEY** that are known to both Signalmas
 
 #### 2. Include the API KEY in header when requesting to an API endpoints.
 
-For endpoints authentication, you will use your Signalmash API KEY as your Authorization token.
+For endpoints authentication, you will use your Signalmash API KEY as your Authorization token. Provide a `Authorization: API_KEY` header with your requests.
 
 {{< tabs >}}
 {{< tab title = "cURL" >}}
@@ -136,10 +136,11 @@ Authorization: API_KEY
 {{< /tab >}}
 {{< /tabs >}}
 
+This creates the following response :
+
 ```json
-# Response
 {
-    "data": [],
+    "data": [...],
     "message": "Campaign Fetched Successfully!",
     "status": 200
 }
