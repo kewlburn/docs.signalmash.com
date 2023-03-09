@@ -6,16 +6,16 @@
 		<a href="{{ .RelPermalink }}">
 			<div class="card my-1">
 				<div class="card-body py-2">
-					&larr; {{ .Title }}
+					&larr; {{ .Parent.Title }} / {{ .Title }}
 				</div>
 			</div>
 		</a>
 	{{ end -}}
 	{{ with $pages.Prev . -}}
-		<a class="ms-auto" href="{{ .RelPermalink }}">
+		<a title="{{ .Parent.Title }}" class="ms-auto" href="{{ .RelPermalink }}">
 			<div class="card my-1">
 				<div class="card-body py-2">
-					{{ .Title }} &rarr;
+					{{ .Parent.Title }} / {{ .Title }} &rarr;
 				</div>
 			</div>
 		</a>
